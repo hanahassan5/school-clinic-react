@@ -7,5 +7,5 @@ import './index.css';
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/about', element: <AboutPage /> },
-]);
+], { basename: import.meta.env.BASE_URL });
 createRoot(document.getElementById('root')).render(<RouterProvider router={router} />);

@@ -12,7 +12,7 @@ export default function School() {
                 </div>
 
                 <div>
-                    <img src="/img/compo.png" className="w-[70%] block m-auto mb-10" />
+                    <img src={`${import.meta.env.BASE_URL}img/compo.png`} className="w-[70%] block m-auto mb-10" />
                 </div>
 
                 <div className="flex flex-col justify-center">

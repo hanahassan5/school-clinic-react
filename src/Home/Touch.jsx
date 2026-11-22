@@ -11,28 +11,28 @@ export default function Touch() {
                 </div>
 
                 <div className="bg-white p-4 rounded-xl">
-                    <img src="/img/s1.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/s1.png`} alt="" />
                     <h5 className="mt-3 mb-1 text-lg text-[#43a2b4]">First Aids</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus alias aut saepe quidem libero
                         dicta laborum quos corrupti autem. Debitis.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-xl">
-                    <img src="/img/s2.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/s2.png`} alt="" />
                     <h5 className="mt-3 mb-1 text-lg text-[#43a2b4]">First Aids</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus alias aut saepe quidem libero
                         dicta laborum quos corrupti autem. Debitis.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-xl">
-                    <img src="/img/s3.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/s3.png`} alt="" />
                     <h5 className="mt-3 mb-1 text-lg text-[#43a2b4]">First Aids</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus alias aut saepe quidem libero
                         dicta laborum quos corrupti autem. Debitis.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-xl">
-                    <img src="/img/s4.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/s4.png`} alt="" />
                     <h5 className="mt-3 mb-1 text-lg text-[#43a2b4]">First Aids</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus alias aut saepe quidem libero
                         dicta laborum quos corrupti autem. Debitis.</p>
